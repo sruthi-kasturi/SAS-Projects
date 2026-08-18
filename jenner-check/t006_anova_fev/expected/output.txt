@@ -1,0 +1,38 @@
+
+                  The ANOVA Procedure                   
+                Class Level Information                 
+
+Class       Levels  Values                              
+--------  --------  ------------------------------------
+center           3  JohnsHopkins RanchoLosAmigos StLouis
+
+Number of Observations Read        15
+Number of Observations Used        15
+
+Dependent Variable: fev
+
+Source                  DF  Sum of Squares     Mean Square    F Value     Pr > F
+--------------------------------------------------------------------------------
+center                   2          0.8493          0.4247       6.21     0.0140
+Error                   12          0.8200          0.0683          .          .
+Corrected Total         14          1.6693                          .          .
+
+R-Square: 0.5088  Root MSE: 0.2614  Mean: 2.9267
+
+
+Level of          -----------center----------
+center                N         Mean      Std Dev
+
+JohnsHopkins          5       2.9600       0.3050
+RanchoLosAmigos       5       3.2000       0.2739
+StLouis               5       2.6200       0.1924
+
+
+Levene's Test for Homogeneity of fev Variance
+ANOVA of Squared Deviations from Group Means
+
+Source               DF   Sum of Squares      Mean Square   F Value     Pr > F
+------------------------------------------------------------------------------
+center                2           0.0052           0.0026      0.64     0.5467
+Error                12           0.0494           0.0041         .          .
+

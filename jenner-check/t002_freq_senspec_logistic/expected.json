@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-08-18T08:31:38.175864+00:00",
+  "_captured_run_id": "r_3af913fc71cb47f7839de86f1f902f8b",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote lab_3 (20 rows, 3 columns).",
+    "NOTE: Wrote Pancreatic_cancer (20 rows, 3 columns).",
+    "NOTE: PROC LOGISTIC data=Pancreatic_cancer",
+    "NOTE: PROC LOGISTIC completed. Results written to: ./ods_output/logistic_results.spec.json"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

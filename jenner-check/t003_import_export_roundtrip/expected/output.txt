@@ -1,0 +1,24 @@
+
+  Obs  ID   Name  Gender  Age
+-----  --  -----  ------  ---
+    1   1  Jake   M        20
+    2   2  Peter  M        25
+    3   3  Sara   F        19
+    4   4  Jason  M        31
+    5   5  Lora   F        29
+
+  Obs  ID   Name  Gender  Age
+-----  --  -----  ------  ---
+    1   1  Jake   M        20
+    2   2  Peter  M        25
+    3   3  Sara   F        19
+    4   4  Jason  M        31
+    5   5  Lora   F        29
+
+  Obs  ID   name  gender  age
+-----  --  -----  ------  ---
+    1   1  Jake   M        20
+    2   2  Peter  M        25
+    3   3  Sara   F        19
+    4   4  Jason  M        31
+    5   5  Lora   F        29

@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_corr_ga_lwd",
+  "source_file": "3.2.sas",
+  "source_blob_sha": "70999931a58abdb172b4ca53dd1e22a6bdb8044b",
+  "source_commit": "aaf66b0bfa1231c49a3a35ff15f49d08dfc2a843",
+  "notes": "PROC CORR on two variable pairs; sampled 15 rows each from this repo's own ga.xlsx and lwd.xlsx (de-identified aggregate hormone-level and low-birth-weight data) via DATALINES in place of the original local-path PROC IMPORTs."
+}

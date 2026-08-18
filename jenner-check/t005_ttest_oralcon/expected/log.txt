@@ -1,0 +1,15 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA oralcon
+
+NOTE: Processing inline DATALINES (10 lines)
+
+NOTE: Read 10 rows from DATALINES.
+NOTE: Wrote oralcon (10 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC TTEST data=oralcon
+
+NOTE: ODS plot written: ttest_summary.spec.json
+NOTE: PROC TTEST ODS Graphics generated.
+NOTE: PROC TTEST statement used.

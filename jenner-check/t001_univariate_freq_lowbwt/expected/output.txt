@@ -1,0 +1,151 @@
+                                                The UNIVARIATE Procedure
+                                                     Variable:  sbp
+
+                                                        Moments
+
+N                                 20    Sum Weights                       20
+Mean                       50.000000    Sum Observations         1000.000000
+Std Deviation              13.070658    Variance                  170.842105
+Skewness                    1.117675    Kurtosis                    2.170419
+Uncorrected SS          53246.000000    Corrected SS             3246.000000
+Coeff Variation            26.141316    Std Error Mean              2.922688
+
+          Basic Statistical Measures          
+
+Location             Variability              
+--------  ---------  -------------  ----------
+Mean      50.000000  Std Deviation   13.070658
+Median    47.500000  Variance       170.842105
+Mode      31.000000  Range           56.000000
+
+     NOTE: The mode displayed is the smallest of 3 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      31.000000
+1%          31.000000
+5%          31.000000
+10%         35.000000
+25% Q1      42.000000
+50% Median  47.500000
+75% Q3      56.500000
+90%         65.000000
+95%         76.500000
+99%         87.000000
+100% Max    87.000000
+
+          Extreme Observations          
+
+      Lowest               Highest
+    Value       Obs      Value       Obs
+---------  --------  ---------  --------
+31.000000         6  57.000000         9
+31.000000         7  63.000000        13
+39.000000         4  64.000000        10
+40.000000         8  66.000000        18
+42.000000         3  87.000000        16
+
+
+                                               Tests for Location: Mu0=0
+ 
+                                    Test           -Statistic-    -----p Value------
+
+                                    Student's t    t  17.10754    Pr > |t|    <.0001
+                                    Sign           M        10    Pr >= |M|   <.0001
+                                    Signed Rank    S       105    Pr >= |S|   <.0001
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  sex
+
+                                                        Moments
+
+N                                 20    Sum Weights                       20
+Mean                        0.300000    Sum Observations            6.000000
+Std Deviation               0.470162    Variance                    0.221053
+Skewness                    0.945300    Kurtosis                   -1.241830
+Uncorrected SS              6.000000    Corrected SS                4.200000
+Coeff Variation           156.720782    Std Error Mean              0.105131
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      0.300000  Std Deviation  0.470162
+Median    0.000000  Variance       0.221053
+Mode      0.000000  Range          1.000000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.000000
+1%          0.000000
+5%          0.000000
+10%         0.000000
+25% Q1      0.000000
+50% Median  0.000000
+75% Q3      1.000000
+90%         1.000000
+95%         1.000000
+99%         1.000000
+100% Max    1.000000
+
+         Extreme Observations         
+
+      Lowest             Highest
+   Value       Obs     Value       Obs
+--------  --------  --------  --------
+0.000000         3  1.000000         2
+0.000000         4  1.000000         6
+0.000000         5  1.000000         7
+0.000000         8  1.000000        15
+0.000000         9  1.000000        16
+
+
+                                               Tests for Location: Mu0=0
+ 
+                                    Test           -Statistic-    -----p Value------
+
+                                    Student's t    t  2.853569    Pr > |t|    0.0102
+                                    Sign           M         3    Pr >= |M|   0.0312
+                                    Signed Rank    S      10.5    Pr >= |S|   0.0312
+
+                                                  The MEANS Procedure
+
+                                                Analysis Variable : sbp
+
+                              N
+        sex                 Obs              N         N Miss         Median           Mean
+        -----------------------------------------------------------------------------------
+        0                    14             14              0          47.50          50.57
+        1                     6              6              0          46.00          48.67
+        -----------------------------------------------------------------------------------
+
+                                                   The FREQ Procedure
+
+                                 Cumulative    Cumulative
+sex    Frequency    Percent     Frequency      Percent
+------------------------------------------------------------
+0             14     70.00           14        70.00
+1              6     30.00           20       100.00
+                                                  The MEANS Procedure
+
+                                                Analysis Variable : sbp
+
+                              N
+        sex                 Obs              N           Mean        Std Dev        Minimum        Maximum
+        --------------------------------------------------------------------------------------------------
+        Female               14             14     50.5714286      9.1962725     39.0000000     66.0000000
+        Male                  6              6     48.6666667     20.6462265     31.0000000     87.0000000
+        --------------------------------------------------------------------------------------------------
+
+                                                   The FREQ Procedure
+
+                                    Cumulative    Cumulative
+sex       Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------
+Female           14     70.00           14        70.00
+Male              6     30.00           20       100.00

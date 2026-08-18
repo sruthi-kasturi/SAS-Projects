@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_univariate_freq_lowbwt",
+  "source_file": "1.2.sas",
+  "source_blob_sha": "bba1027c54d8825c087baa21970e1478b068561a",
+  "source_commit": "aaf66b0bfa1231c49a3a35ff15f49d08dfc2a843",
+  "notes": "PROC UNIVARIATE/MEANS/FREQ/FORMAT over systolic BP by sex; sampled 20 rows directly from this repo's own lowbwt0.csv (de-identified aggregate data) via DATALINES in place of the original local-path PROC IMPORT."
+}

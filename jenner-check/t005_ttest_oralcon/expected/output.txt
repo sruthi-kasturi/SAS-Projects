@@ -1,0 +1,10 @@
+                             The TTEST Procedure                              
+                      Paired Difference:  after - before                      
+
+       N      Mean   Std Dev   Std Err   Minimum   Maximum   t Value  Pr > |t|
+--------  --------  --------  --------  --------  --------  --------  --------
+      10    4.8000    4.5656    1.4438   -2.0000   13.0000      3.32    0.0089
+
+      DF   t Value  Pr > |t|
+--------  --------  --------
+       9      3.32    0.0089
