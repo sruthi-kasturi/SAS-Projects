@@ -1,0 +1,222 @@
+                                                   The FREQ Procedure
+
+                               Cumulative    Cumulative
+d    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------
+0           10     50.00           10        50.00
+1           10     50.00           20       100.00
+
+                                Cumulative    Cumulative
+y1    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------
+1            16     80.00           16        80.00
+0             4     20.00           20       100.00
+
+                                Cumulative    Cumulative
+y2    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------
+1            16     80.00           16        80.00
+0             4     20.00           20       100.00
+                                                   The FREQ Procedure
+
+Table of y1 by d
+
+Frequency
+Percent
+Row Pct
+Col Pct
+
+y1 |         0 |         1 |      Total
+---+-----------+-----------+-----------
+1  |         8 |         8 |         16
+   |     40.00 |     40.00 |      80.00
+   |     50.00 |     50.00 |     100.00
+   |     80.00 |     80.00 |      80.00
+---+-----------+-----------+-----------
+0  |         2 |         2 |          4
+   |     10.00 |     10.00 |      20.00
+   |     50.00 |     50.00 |     100.00
+   |     20.00 |     20.00 |      20.00
+---+-----------+-----------+-----------
+Total |        10 |        10 |         20
+
+Statistics for Table of y1 by d
+
+Statistic                                DF  Value         Prob
+--------------------------------------------------------------
+Chi-Square                                1 0.0000       1.0000
+Likelihood Ratio Chi-Square               1 0.0000       1.0000
+Continuity Adj. Chi-Square                1 0.0000       1.0000
+Mantel-Haenszel Chi-Square                1 0.0000       1.0000
+
+Phi Coefficient                      0.0000
+Contingency Coefficient              0.0000
+Cramer's V                           0.0000
+
+WARNING: 50% of the cells have expected counts less than 5. Chi-Square may not be a valid test.
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F)                            8
+Left-sided Pr <= F                             0.7090
+Right-sided Pr >= F                            0.7090
+
+Table Probability (P)                          0.4180
+Two-sided Pr <= P                              1.0000
+
+
+Relative Risk Estimates
+
+Type                                          Value    95% Lower    95% Upper
+----------------------------------------------------------------------------
+Case-Control (Odds Ratio)                    1.0000       0.1118       8.9469
+Cohort (Col1 Risk)                           1.0000       0.3343       2.9911
+Cohort (Col2 Risk)                           1.0000       0.3343       2.9911
+
+
+Sensitivity and Specificity
+
+Sensitivity                          0.8000
+Specificity                          0.2000
+Positive Predictive Value            0.5000
+Negative Predictive Value            0.5000
+
+                                                   The FREQ Procedure
+
+Table of y2 by d
+
+Frequency
+Percent
+Row Pct
+Col Pct
+
+y2 |         0 |         1 |      Total
+---+-----------+-----------+-----------
+1  |         8 |         8 |         16
+   |     40.00 |     40.00 |      80.00
+   |     50.00 |     50.00 |     100.00
+   |     80.00 |     80.00 |      80.00
+---+-----------+-----------+-----------
+0  |         2 |         2 |          4
+   |     10.00 |     10.00 |      20.00
+   |     50.00 |     50.00 |     100.00
+   |     20.00 |     20.00 |      20.00
+---+-----------+-----------+-----------
+Total |        10 |        10 |         20
+
+Statistics for Table of y2 by d
+
+Statistic                                DF  Value         Prob
+--------------------------------------------------------------
+Chi-Square                                1 0.0000       1.0000
+Likelihood Ratio Chi-Square               1 0.0000       1.0000
+Continuity Adj. Chi-Square                1 0.0000       1.0000
+Mantel-Haenszel Chi-Square                1 0.0000       1.0000
+
+Phi Coefficient                      0.0000
+Contingency Coefficient              0.0000
+Cramer's V                           0.0000
+
+WARNING: 50% of the cells have expected counts less than 5. Chi-Square may not be a valid test.
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F)                            8
+Left-sided Pr <= F                             0.7090
+Right-sided Pr >= F                            0.7090
+
+Table Probability (P)                          0.4180
+Two-sided Pr <= P                              1.0000
+
+
+Relative Risk Estimates
+
+Type                                          Value    95% Lower    95% Upper
+----------------------------------------------------------------------------
+Case-Control (Odds Ratio)                    1.0000       0.1118       8.9469
+Cohort (Col1 Risk)                           1.0000       0.3343       2.9911
+Cohort (Col2 Risk)                           1.0000       0.3343       2.9911
+
+
+Sensitivity and Specificity
+
+Sensitivity                          0.8000
+Specificity                          0.2000
+Positive Predictive Value            0.5000
+Negative Predictive Value            0.5000
+
+                                                  The MEANS Procedure
+
+                                                 Analysis Variable : y1
+
+                              N
+        d                   Obs              N           Mean        Std Dev        Minimum        Maximum
+        --------------------------------------------------------------------------------------------------
+        0                    10             10          23.53          24.09           3.40          87.50
+        1                    10             10        3123.19        7374.15           2.40       24000.00
+        --------------------------------------------------------------------------------------------------
+
+                                                 Analysis Variable : y2
+
+                              N
+        d                   Obs              N           Mean        Std Dev        Minimum        Maximum
+        --------------------------------------------------------------------------------------------------
+        0                    10             10          14.23           8.87           5.50          32.10
+        1                    10             10          28.67          27.21           8.25          79.10
+        --------------------------------------------------------------------------------------------------
+
+             The LOGISTIC Procedure              
+                Model Information                
+
+Data Set                   WORK.PANCREATIC_CANCER
+Response Variable          d                     
+Number of Response Levels  2                     
+Model                      binary logit          
+Optimization Technique     Fisher's scoring      
+
+Number of Observations Read        20
+Number of Observations Used        20
+
+            Response Profile            
+      Probability modeled is d='1'      
+
+Ordered Value  d         Total Frequency
+-------------  --------  ---------------
+            1  0                      10
+            2  1                      10
+
+                                           ROC Association Statistics                                            
+
+ROC Model  Mann-Whitney Area  Standard Error  95% Wald CL Lower  95% Wald CL Upper  Somers' D     Gamma     Tau-a
+---------  -----------------  --------------  -----------------  -----------------  ---------  --------  --------
+CA19-9                0.8100          0.1273             0.5605             1.0595     0.6200    0.6200    0.3263
+CA125                 0.6900          0.1237             0.4475             0.9325     0.3800    0.3800    0.2000
+
+                                                  The MEANS Procedure
+
+ Variable      Lower 95%      Upper 95%
+              CL for Mean   CL for Mean
+ --------------------------------------
+ y1              -915.79        4062.51
+ y2                11.60          31.30
+ --------------------------------------
+
+                                                  The MEANS Procedure
+
+                                                Analysis Variable : y1
+
+                                              N      CL for Mean      CL for Mean
+                                       d    Obs        Lower 95%        Upper 95%
+                                       ------------------------------------------
+                                       0     10             6.30            40.76
+                                       1     10         -2151.97          8398.34
+                                       ------------------------------------------
+
+                                                Analysis Variable : y2
+
+                                              N      CL for Mean      CL for Mean
+                                       d    Obs        Lower 95%        Upper 95%
+                                       ------------------------------------------
+                                       0     10             7.89            20.57
+                                       1     10             9.20            48.14
+                                       ------------------------------------------

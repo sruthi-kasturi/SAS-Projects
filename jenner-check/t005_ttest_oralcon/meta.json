@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_ttest_oralcon",
+  "source_file": "2.1.sas",
+  "source_blob_sha": "2803fd6a2e66e1498ab9c0e9bf8a0edf9174ea0f",
+  "source_commit": "aaf66b0bfa1231c49a3a35ff15f49d08dfc2a843",
+  "notes": "Paired PROC TTEST on before/after systolic BP; all 10 rows come directly from this repo's own OralContraceptives.xlsx (de-identified aggregate data) via DATALINES in place of the original local-path PROC IMPORT. Reproduces the source script's own noted p-value of 0.0089."
+}

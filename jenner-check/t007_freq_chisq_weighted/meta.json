@@ -1,0 +1,7 @@
+{
+  "bundle": "t007_freq_chisq_weighted",
+  "source_file": "3.1.sas",
+  "source_blob_sha": "c51ad39b153e031a55cb37e0d44717395248a891",
+  "source_commit": "aaf66b0bfa1231c49a3a35ff15f49d08dfc2a843",
+  "notes": "Weighted PROC FREQ with CHISQ over a treatment x withdrawal table; cat.xlsx isn't checked into the repo, so a small mock contingency table matching the script's own documented schema (treatment, Withdrawal, number) was fabricated and inlined via DATALINES in place of the original local-path PROC IMPORT."
+}

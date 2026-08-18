@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-08-18T08:31:38.175864+00:00",
+  "_captured_run_id": "r_0c0ef8f865294b89a348223cce1d70fd",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote fev (15 rows, 2 columns).",
+    "NOTE: PROC ANOVA data=fev",
+    "NOTE: PROC ANOVA: 15 observations, 1 effects analyzed"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

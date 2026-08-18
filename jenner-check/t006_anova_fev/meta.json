@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_anova_fev",
+  "source_file": "2.2.sas",
+  "source_blob_sha": "5dff95c4616633339caa17500909d2e4822dee42",
+  "source_commit": "aaf66b0bfa1231c49a3a35ff15f49d08dfc2a843",
+  "notes": "PROC ANOVA across 3 centers; fev.xlsx isn't checked into the repo, so a small mock sample matching the script's own documented schema (center: Johns Hopkins/Rancho Los Amigos/St. Louis; fev) was fabricated and inlined via DATALINES in place of the original local-path PROC IMPORT."
+}

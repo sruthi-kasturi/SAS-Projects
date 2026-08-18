@@ -1,0 +1,44 @@
+                                                   The FREQ Procedure
+
+Table of treatment by Withdrawal
+
+Frequency
+Percent
+Row Pct
+Col Pct
+
+treatment |        No |       Yes |      Total
+----------+-----------+-----------+-----------
+Drug      |        42 |        18 |         60
+          |     35.00 |     15.00 |      50.00
+          |     70.00 |     30.00 |     100.00
+          |     43.75 |     75.00 |      50.00
+----------+-----------+-----------+-----------
+Placebo   |        54 |         6 |         60
+          |     45.00 |      5.00 |      50.00
+          |     90.00 |     10.00 |     100.00
+          |     56.25 |     25.00 |      50.00
+----------+-----------+-----------+-----------
+Total     |        96 |        24 |        120
+
+Statistics for Table of treatment by Withdrawal
+
+Statistic                                DF  Value         Prob
+--------------------------------------------------------------
+Chi-Square                                1 7.5000       0.0062
+Likelihood Ratio Chi-Square               1 7.7829       0.0053
+Continuity Adj. Chi-Square                1 6.3021       0.0121
+Mantel-Haenszel Chi-Square                1 7.4375       0.0064
+
+Phi Coefficient                     -0.2500
+Contingency Coefficient              0.2425
+Cramer's V                          -0.2500
+
+Fisher's Exact Test
+----------------------------------
+Cell (1,1) Frequency (F)                           42
+Left-sided Pr <= F                             0.0055
+Right-sided Pr >= F                            0.9988
+
+Table Probability (P)                          0.0043
+Two-sided Pr <= P                              0.0110

@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_import_export_roundtrip",
+  "source_file": "1.1.sas",
+  "source_blob_sha": "a37978197b284214ed32114e2dbbd1a1c1ee1f3b",
+  "source_commit": "aaf66b0bfa1231c49a3a35ff15f49d08dfc2a843",
+  "notes": "PROC EXPORT then PROC IMPORT round-trip plus a delimited raw INPUT block; the 5 rows come directly from this repo's own example1.csv (already-synthetic name/gender/age toy data) via DATALINES in place of the original local-path PROC IMPORT."
+}

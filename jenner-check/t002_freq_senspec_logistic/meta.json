@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_freq_senspec_logistic",
+  "source_file": "1.3.sas",
+  "source_blob_sha": "14c46e8145991128491269b07c0e50fa321bb436",
+  "source_commit": "aaf66b0bfa1231c49a3a35ff15f49d08dfc2a843",
+  "notes": "PROC FREQ sensitivity/specificity plus PROC LOGISTIC with ROC comparison; sampled 20 balanced rows from this repo's own est1.csv and wiedat2b.csv (de-identified aggregate diagnostic marker data) via DATALINES in place of the original local-path PROC IMPORTs."
+}

@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-08-18T08:31:38.175864+00:00",
+  "_captured_run_id": "r_c4cf3fd741b4492e941e33647bbac325",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote oralcon (10 rows, 3 columns).",
+    "NOTE: PROC TTEST data=oralcon",
+    "NOTE: PROC TTEST statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
